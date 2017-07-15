@@ -4,7 +4,7 @@ body {
 	text-decoration: none;
 	max-width: 600px;
 	margin: auto;
-   	font-family: 'Droid Sans Mono';
+   	font-family: 'Droid Sans Mono', monospace;
     font-size: 14px;
 
 }
