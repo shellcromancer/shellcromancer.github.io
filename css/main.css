@@ -1,5 +1,5 @@
 body {
-	background-color: #1aa3ff;
+	background-color: #4d4d4d;
 	color: white;
 	text-decoration: none;
 	max-width: 600px;
@@ -24,7 +24,6 @@ body {
 .links {
 	display: flexbox;
 	margin: auto;
-	background-color: #006bb3;
 	border-radius: 15px;
 }
 
@@ -38,11 +37,31 @@ body {
 
 .links a {
 	display: block;
-	background-color: #006bb3;
+	color: white;
 
 }
 
 a:hover {
 	color: black;
 
+}
+
+img {
+	margin: 30px;
+
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+  -webkite-animation: blink 1s step-start 0s infinite;
 }
