@@ -10,9 +10,9 @@ body {
 }
 
 .center {
-	display: flexbox;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
+	display: table;
+	margin: 0 auto;
 }
 
 .profile {
@@ -36,15 +36,12 @@ body {
 }
 
 .links a {
-	display: block;
+	display: flexbox;
 	color: white;
 
 }
 
-a:hover {
-	color: black;
-
-}
+a:hover { color: black; }
 
 img {
 	margin: 30px;
