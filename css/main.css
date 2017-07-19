@@ -6,7 +6,7 @@ body {
 	margin: auto;
    	font-family: 'Droid Sans Mono', monospace;
     font-size: 14px;
-
+   	line-height: 1.5;
 }
 
 .center {
@@ -22,9 +22,8 @@ body {
 }
 
 .links {
-	display: flexbox;
+	display: flex;
 	margin: auto;
-	border-radius: 15px;
 }
 
 .links li {
@@ -38,13 +37,18 @@ body {
 .links a {
 	display: flexbox;
 	color: white;
-
 }
 
-a:hover { color: black; }
+a:hover { 
+	color: black;
+}
+
+a {
+	color: white;
+}
 
 img {
-	margin: 30px;
+	margin: auto;
 
 }
 
@@ -60,5 +64,5 @@ img {
 }
 .blink {
   animation: blink 1s step-start 0s infinite;
-  -webkite-animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
 }
