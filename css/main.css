@@ -1,12 +1,15 @@
+* {
+	color: #e3e3e8;
+}
+
 body {
-	background-color: #4d4d4d;
-	color: white;
+	background-color: #242b2d;
+	color: #e3e3e8;
 	text-decoration: none;
-	max-width: 600px;
+	max-width: 650px;
 	margin: auto;
    	font-family: 'Droid Sans Mono', monospace;
-    font-size: 14px;
-   	line-height: 1.5;
+    font-size: .9em;
 }
 
 .center {
@@ -21,35 +24,31 @@ body {
 	display: flex;
 }
 
-.links {
-	display: flex;
-	margin: auto;
+h2 {
+	margin-bottom: 0;
 }
 
-.links li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 110px;
-	float: left;
+.links {
+	margin: 0 auto 1.5em auto;
 }
 
 .links a {
-	display: flexbox;
 	color: white;
+	margin: auto 1em auto 0;
 }
 
 a:hover { 
 	color: black;
 }
 
-a {
-	color: white;
-}
-
 img {
 	margin: auto;
+	border-radius: 1em
+}
 
+li, p {
+	margin: 0 0 .5em 0;
+	font-size: .8em;
 }
 
 @keyframes blink {
