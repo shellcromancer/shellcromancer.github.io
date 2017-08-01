@@ -1,31 +1,65 @@
 * {
-	color: #e3e3e8;
+	color: black;
 }
 
 body {
-	background-color: #242b2d;
-	color: #e3e3e8;
+	background-color: #c3c3c4;
+	color: black;
 	text-decoration: none;
-	max-width: 650px;
 	margin: auto;
-   	font-family: 'Droid Sans Mono', monospace;
+   	font-family: 'Source Code Pro', monospace;
     font-size: .9em;
 }
 
-.center {
+.alt-color {
+	background-color: #dededf;
+	border-radius: .5em;
+}
+
+header, footer {
 	text-align: center;
-	display: table;
-	margin: 0 auto;
+}
+
+.bio-section, .bio, h2, ul {
+	text-align: left;
 }
 
 .profile {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	display: flex;
 }
 
+.bio-info, .block {
+	display: block;
+	margin: 0 auto;
+}
+
 h2 {
-	margin-bottom: 0;
+	margin-bottom: .25em;
+}
+
+.contrast-font {
+	font-family: 'Lora', serif;
+	color: #0e492d;
+	font-weight: bold;
+}
+
+.top-quote {
+	font-size: .7em;
+}
+
+.icons ul {
+	list-style: none;
+}
+
+.icons li {
+	margin: 0 .25em 0 0;
+}
+
+.icons a:link {
+	margin-bottom: .5em;
+	font-size: 2em;
+	text-decoration: none;
 }
 
 .links {
@@ -37,13 +71,9 @@ h2 {
 	margin: auto 1em auto 0;
 }
 
-a:hover { 
-	color: black;
-}
-
 img {
-	margin: auto;
-	border-radius: 1em
+	margin: 0 0 1em 0;
+	border-radius: 1em;
 }
 
 li, p {
@@ -51,17 +81,15 @@ li, p {
 	font-size: .8em;
 }
 
-@keyframes blink {
-  50% {
-    opacity: 0.0;
-  }
+.w3-bar a {
+	text-decoration: none;
 }
-@-webkit-keyframes blink {
-  50% {
-    opacity: 0.0;
-  }
+
+.w3-row-padding {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
 }
-.blink {
-  animation: blink 1s step-start 0s infinite;
-  -webkit-animation: blink 1s step-start 0s infinite;
+
+.w3-col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
 }
