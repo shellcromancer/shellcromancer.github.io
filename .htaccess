@@ -1,9 +1,0 @@
-# One week for assests
-<filesMatch ".(jpg|jpeg|png|gif|ico)$">
-Header set Cache-Control "max-age=604800, public"
-</filesMatch>
-
-# One day for CSS and JS
-<filesMatch ".(css|js)$">
-Header set Cache-Control "max-age=86400, public"
-</filesMatch>
