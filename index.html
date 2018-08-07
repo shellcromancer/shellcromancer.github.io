@@ -1,116 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Welcome | danielstinsondiess.net</title>
+		<link rel="shortcut icon" href="profile.ico" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body id="top">
 
-  <head>
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img src="images/avatar.jpg" alt="Daniel Stinson-Diess" /></a>
+					<h1><strong>Hey! I'm Daniel.</strong> Software engineer,<br />
+					security enthusiast, and general hacker.</h1>
+				</div>
+			</header>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Portfolio website.">
-    <meta name="author" content="Daniel Stinson">
+		<!-- Main -->
+			<div id="main">
 
-    <title>Daniel Stinson-Diess</title>
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>About me</h2>
+						</header>
+						<p>I'm a computer science student who likes to build and break things. I pull apart everything from operating systems to web development. My experience is in research, incident response, and security automation so far. When I'm away from the screen, I climb rocks, pick locks, and enjoy good food.</p>
+						<ul class="actions">
+							<li><a href="about/index.html" class="button">Learn More</a></li>
+						</ul>
+					</section>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+				<!-- Two -->
+					<section id="two">
+						<h1>Projects</h1>
+						<div class="row">
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/freelist.png" class="image fit thumb"><img src="images/thumbs/freelist.png" alt="" /></a>
+								<h3>Malloc Package</h3>
+								<p>My version of the C malloc library. It allocates based on a segmented free-list. In the future I want to optimize this with faster data structures. Check out details <a href="https://github.com/DStinDiess/MallocLibrary">here</a>.</p>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/Rshell.png" class="image fit thumb"><img src="images/thumbs/Rshell.png" alt="" /></a>
+								<h3>R'Shell</h3>
+								<p>Bash emulator, built in C++ using extensible design patterns. I want to extend this project with shell history, and the ability to change directories. Check out details <a href="https://github.com/DStinDiess/RShell">here</a>.</p>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+								<h3>CTF Tracker</h3>
+								<p>I'm building a ticket tracker for our team to work on CTF contests. I'll start soon...</p>
+							</article>
+						</div>
+					</section>
 
-    <!-- Custom styles for this template -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
+				<!-- Three -->
+					<section id="three">
+						<h1>Blog posts</h1>
+						<p>These will be coming soon! I want to write about the software and technologies I use.</p>
+						<ul class="actions">
+							<li><a href="blog/index.html" class="button">Learn More</a></li>
+						</ul>
+					</section>
+			</div>
 
-  </head>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/daniel-stinson-diess" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/DStinDiess" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:dstindiess@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="assets/Resume.pdf" class="icon fa-file"><span class="label">Resume</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; 2018 Daniel Stinson-Diess</li>
+						<li><a href="about/index.html">about</a></li>
+						<li><a href="blog/index.html">blog</a></li>
+					</ul>
+				</div>
+			</footer>
 
-  <body>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#home">Daniel Stinson-Diess</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="calender.html">Calender</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Resume.pdf" target="blank_">Resume</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="profile.JPG" alt="Photo of me! :)">
-            </div>
-          </div>
-          <div class="col-md-6 order-1">
-            <div class="p-5">
-              <h2 class="display-4">Greetings!</h2>
-
-                <p>Hey there! My name is Daniel Stinson-Diess and I'm a 2nd year computer science major at UC Riverside.</p>
-
-                <p>Academically, I'm interested in the fields of computer security and systems development. </p>
-                <p>I'm getting started with systems engineering and developing tools that I can use for security testing!</p>
-            
-
-			       <h4 class="display-7"> Some links:</h4>
-				    <ul> 
-					     <li>LinkedIn: <a href="https://www.linkedin.com/in/daniel-stinson-diess-55155b124/" target="_blank"><span class="link-text">DStinDiess</span></a>
-					     </li>
-					     <li>Github: <a href="https://github.com/DStinDiess" target="_blank"><span class="link-text">@dstindiess</span></a> 
-					     </li>
-					     <li>Email: <a href="mailto:dstindiess@gmail.com"><span class="link-text">dstindiess@gmail.com</span></a>
-					     </li>
-				      </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="ACM.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="p-5">
-              <h2 class="display-4">What I Do:</h2>
-              <ul> 
-                <li> <a href="https://www.acmucr.org/" target="_blank"> Association of Computing Machinery</a> (ACM): I'm currently serving as the Vice Chair for the 2018 - 2019 school year. In the past I was the fundraising chair. I'm super excited to build our club more and mentor younger students and help them succeed.</li>
-                <li> Cyber@UCR: I'm serving as the Vice Chair for the school year of 2018-2019! My goal is to pivot the club to practicing and developing security products. We are doing this with offensive CTF challenges and demonstrations with various types of malware. </li>
-             </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">&copy; Daniel Stinson-Diess 2017 <small>(Not really copyrighted...)</small></p>
-      </div>
-      <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  </body>
-
+	</body>
 </html>
