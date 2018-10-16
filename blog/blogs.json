@@ -1,0 +1,20 @@
+{ 
+    "post1" : {
+            "title":  "Blog #1",
+            "content" :  "blalbvblblblblblblallksdlmalmdksdkasd",
+            "date" :  "12/0-16",
+            "author" :  "Daniel"
+    },
+    "post2" : {
+            "title":  "Blog #2",
+            "content" :  "blalbvblblblblblblallksdlmalmdksdkasd",
+            "date" :  "12/0-16",
+            "author" :  "Daniel"
+    },
+    "post4" : {
+            "title":  "Blog #3",
+            "content" :  "blalbvblblblblblblallksdlmalmdksdkasd",
+            "date" :  "12/0-16",
+            "author" :  "Daniel"
+    }
+}
